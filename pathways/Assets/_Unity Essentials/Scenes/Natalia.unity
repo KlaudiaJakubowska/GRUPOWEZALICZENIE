@@ -2436,6 +2436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 951877180}
+  - component: {fileID: 951877181}
   m_Layer: 0
   m_Name: Menu
   m_TagString: Untagged
@@ -2464,6 +2465,19 @@ Transform:
   - {fileID: 20494532}
   m_Father: {fileID: 890957152}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &951877181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951877179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2823038f12d8dc449af34d2ff7c1321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::menuContlorel02
+  audioMixer: {fileID: 24100000, guid: fe8530cb0b3d02647a2f3d467016f660, type: 2}
 --- !u!4 &959160955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 473917482863699623, guid: 7ab3a4f3d38ad4e2e84cabbb4aec3530,
@@ -3935,7 +3949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc65324e6969bdc41989b646ca4f0696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  audioMixer: {fileID: 24100000, guid: fe8530cb0b3d02647a2f3d467016f660, type: 2}
 --- !u!4 &1284470759
 Transform:
   m_ObjectHideFlags: 0
