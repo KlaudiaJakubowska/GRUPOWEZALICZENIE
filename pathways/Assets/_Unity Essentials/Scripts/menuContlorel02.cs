@@ -7,6 +7,18 @@ public class menuContlorel02 : MonoBehaviour
     public AudioMixer audioMixer;
     private bool musicMuted = false;
     private bool sfxMuted = false;
+    public GameObject menu;
+    private bool menuActive = false;
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            menuActive = !menuActive; 
+            menu.SetActive(menuActive); 
+        }
+    }
 
     public void RestartGame()
     {
